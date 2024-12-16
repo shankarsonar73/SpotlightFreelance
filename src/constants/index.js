@@ -56,13 +56,18 @@ export const clientReviews = [
   },
 ];
 
+
+
+
+
+
 export const myProjects = [
   {
     title: 'Podcastr - AI Podcast Platform',
     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
     subdesc:
       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    href: 'https://www.youtube.com/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,13 +100,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    title: 'FuelOne - Real-Time Fuel Availability & Delivery',
+desc: 'FuelOne is a dynamic web application designed to address fuel scarcity by providing real-time insights into fuel availability at nearby stations. It allows users to conveniently order fuel online, streamlining the procurement process and promoting efficiency.',
+subdesc: 
+    'FuelOne enhances user experience with its location-based features, ensuring timely deliveries and transparent information sharing. Built with cutting-edge web technologies, it offers a user-friendly platform that empowers individuals to make informed fuel purchasing decisions while minimizing environmental impact.',
+    href: 'https://www.youtube.com/',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/fuelone.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -131,12 +136,14 @@ export const myProjects = [
       },
     ],
   },
+
+
   {
     title: 'CarePulse - Health Management System',
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    href: 'https://www.youtube.com/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -170,14 +177,18 @@ export const myProjects = [
       },
     ],
   },
+
+
+
+  
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    title: 'PatrolLink SP Bandobast - Real-Time Police Deployment & Attendance Management',
+    desc: 'PatrolLink SP Bandobast is an advanced web solution designed to streamline police deployment and attendance management. It helps local police forces efficiently manage personnel and resources during law enforcement operations, ensuring accountability and timely responses.',
+    subdesc: 
+      'With PatrolLink, law enforcement agencies can track officer deployment, manage schedules, and enhance operational efficiency in real time. Built using modern web technologies, it ensures a user-friendly experience for police staff, improving coordination and accountability during critical public safety events.',
+        href: 'https://www.youtube.com/',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: '/assets/sppolice.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -208,11 +219,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+
+
+    title: 'Image Mask Drawing Application - AI-Powered Image Enhancement',
+desc: 'The Image Mask Drawing Application is an advanced AI-powered tool that allows users to upload images, apply custom masking, and generate AI-enhanced visuals. Combining manual creativity with automation, it offers a seamless experience for image manipulation.',
+subdesc: 
+  'With the integration of AI models like Claude, users can enhance images through intelligent masking, while also utilizing manual tools for detailed customization. This app merges the best of both worlds, offering innovative solutions for digital artists and content creators.',
+    href: 'https://www.youtube.com/',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -257,31 +270,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   };
 };
 
+
 export const workExperiences = [
   {
-    id: 1,
+    id: 2,
     name: 'Framer',
     pos: 'Lead Web Developer',
     duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to life, allowing stakeholders to experience the user flow and interactions before development.",
     icon: '/assets/framer.svg',
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Figma',
     pos: 'Web Developer',
     duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based nature enables efficient teamwork.",
     icon: '/assets/figma.svg',
     animation: 'clapping',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Notion',
     pos: 'Junior Web Developer',
     duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to implementation steps are in one place.",
     icon: '/assets/notion.svg',
     animation: 'salute',
   },

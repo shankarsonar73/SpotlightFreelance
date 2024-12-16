@@ -26,7 +26,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Shankar Sonar ',
           from_email: form.email,
           to_email: '2022bcs504@sggs.ac.in',
           message: form.message,
@@ -68,17 +68,18 @@ const Contact = () => {
     <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
+      {/* <div className="relative min-h-screen flex items-center justify-center flex-col"> */}
+      <div className="relative min-h-screen flex ml-10 items-start justify-start flex-col">
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+          <h3 className="head-text mt-10">Have an idea? Let’s turn it into reality!</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+            life, We are here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-3 flex flex-col space-y-7">
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input

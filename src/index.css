@@ -38,6 +38,19 @@ body {
     @apply absolute left-0 right-0 bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
   }
 
+  .navbar {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .navbar:hover {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  
+
   .text-gray_gradient {
     @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
   }
@@ -59,6 +72,11 @@ body {
   .hero_tag {
     @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
   }
+
+.hero_tag2 {
+  @apply text-center xl:text-4xl md:text-3xl sm:text-2xl text-xl font-generalsans font-black !leading-snug;
+}
+
 
   /* about section */
   .grid-container {

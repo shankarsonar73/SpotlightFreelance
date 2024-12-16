@@ -16,14 +16,16 @@ const About = () => {
   };
 
   return (
-    <section className="c-space my-20" id="about">
+    <section className="c-space my-32" id="about">
+      <p className="hero_tag2 text-gray_gradient mb-20">Dream Beyond Limits, We’ll Turn It Into Reality.</p>
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+        
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">SpotlightFreelance</p>
               <p className="grid-subtext">
                 With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
